@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>梦爱吃鱼</title>
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/Glume/img/favicon.ico" /> 
+  <link rel="stylesheet" href="css/love.css" /> 
+  <script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/Glume/js/Valine.min.js"></script> 
+ </head> 
+ <body> 
+  <div class="main"> 
+   <!-- 左边的头像 --> 
+   <div class="love"> 
+    <img src="https://q.qlogo.cn/g?b=qq&nk=1793890332&s=640" alt="love" /> 
+    <!-- 中间的图片 --> 
+    <img src="images/love.png" alt="love" /> 
+    <!-- 右边的头像 --> 
+    <img src="https://q.qlogo.cn/g?b=qq&nk=1034630181&s=640" alt="love" /> 
+    <p id="lovexhjSitetime" class="lovetime"></p> 
+   </div> 
+  </div> 
+  <div id="vcomments"></div> 
+  <footer class="footer-nav"> 
+   <a>富强</a> 
+   <a>民主</a> 
+   <a>文明</a> 
+   <a>和谐</a> 
+   <a>自由</a> 
+   <a>平等</a> 
+   <a>公正</a> 
+   <a>法制</a> 
+   <a>爱国</a> 
+   <a>敬业</a> 
+   <a>诚实</a> 
+   <a>友善</a> 
+   <div class="icp"> 
+    <a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备20017009号-1</a> 
+   </div> 
+   <div class="guoqi"></div> 
+  </footer> 
+  <script>
+      var valine = new Valine();
+      valine.init({
+        el: "#vcomments",
+        appId: "Wp1ioA04QuAXhySXzzbxK5fw-gzGzoHsz",
+        appKey: "d5WXcO4oo1DKV92dnYb0ynL2",
+        enableQQ: "true",
+        requiredFields: ['nick','mail'],
+        placeholder: "祝福我们吧",
+      });
+    </script>
+  <script src="js/love.js"></script>   
+ </body>
+</html>
